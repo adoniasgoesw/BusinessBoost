@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Jquery-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--Styles-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="navlogo">
+                <i class="fa-solid fa-industry">
+                </i>
+                <h3 class="logo-title">Business Boost Inc.</h3>
+            </div>
+
+            <ul class="navlist">
+                <li class="navitem ">
+                    <a href="#solutions">Solutions</a>
+                </li>
+                <li class="navitem">
+                    <a href="#pricing">Pricing</a>
+                </li>
+                <li class="navitem">
+                    <a href="#about">About</a>
+                </li>
+            </ul>
+
+            <button class="btn-default" onclick="moveButton()">
+                <a href="">Sign up</a>
+                <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+            </button>
+
+        </nav>
+    </header>
+    <main class="content">
+        <section class="solutions">
+            <div class="solutions-content">
+                <div class="cta">
+                    <h4 class="solutions-desc">#flexiblesolutions</h4>
+
+                    <h2 class="title">Transforming Business Potential into Success</h2>
+
+                    <p class="description">At BusinessBoost Inc., we drive success through tailored solutions that adapt
+                        to your business needs. Our team of experts ensures seamless integration and maximizes your
+                        growth potential.
+
+                    </p>
+
+                    <button class="btn-default" onclick="moveButton()">
+                        <a href="">Start free today</a>
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+
+
+                <div class="banner">
+                    <img src="img/banner.png" alt="">
+                </div>
+            </div>
+
+            <div class="results">
+                <span class="result-item">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3 class="title">Increased Productivity</h3>
+                </span>
+                <span class="result-item">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h3 class="title">Revenue Growth</h3>
+                </span>
+                <span class="result-item"><i class="fa-solid fa-star"></i>
+                    <h3 class="title">Customer Satisfaction</h3>
+                </span>
+
+            </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <h1 class="title-prices">3 Personalized Plans for You</h1>
+            <div class="prices">
+                <div class="price">
+                    <h2 class="title">Free</h2>
+                    <h1 class="price-title">FREE</h1>
+                    <p class="description">forever free for individuals and small teams up to 3</p>
+                    <ul class="price-list">
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Unlimited Access</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> 100MB Storage</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> 3 Users</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Unlimited Tasks</li>
+                    </ul>
+                    <button class="btn-default">
+                        <a href="">Start free today</a>
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+                <div class="price" style="border: 2px solid var(--color-primary-5)">
+                    <div class="titles">
+                        <h2 class="title">Unlimited</h2>
+                        <h2 class="recomend">#bestdeal</h2>
+                    </div>
+                    <h1 class="price-title">$19.99/mo</h1>
+                    <p class="description">perfect for growing teams and businesses</p>
+                    <ul class="price-list">
+                        <li class="price-item"><i class="fa-solid fa-check"></i> All in Free +</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Unlimited Guests</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Priority Support</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Smart Notifications</li>
+                    </ul>
+                    <button class="btn-default">
+                        <a href="">Go Unlimited</a>
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+                <div class="price">
+                    <h2 class="title">Enterprise</h2>
+                    <h1 class="price-title">Contact Us</h1>
+                    <p class="description">for large organizations with advanced needs</p>
+                    <ul class="price-list">
+                        <li class="price-item"><i class="fa-solid fa-check"></i> All in Unlimited +</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Bulk Export</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Advanced Analytics</li>
+                        <li class="price-item"><i class="fa-solid fa-check"></i> Advanced Security</li>
+                    </ul>
+                    <button class="btn-default">
+                        <a href="">Contact Sales</a>
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-mobile">
+            <h1 class="title-prices-mobile">Plans for You </h1>
+            <div class="prices-mobile">
+                <div class="price-mobile">
+                    <h2 class="title-mobile">Free</h2>
+                    <h1 class="price-title-mobile">FREE</h1>
+                    <p class="description-mobile">forever free for individuals and small teams up to 3</p>
+                    <ul class="price-list-mobile">
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Unlimited Access</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> 100MB Storage</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> 3 Users</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Unlimited Tasks</li>
+                    </ul>
+                    <button class="btn-default-mobile" onclick="moveButton()">
+                        <a href="">Start free today</a>
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+                <div class="price-mobile" style="border: 2px solid var(--color-primary-5)">
+                    <div class="titles-mobile">
+                        <h2 class="title-mobile">Unlimited</h2>
+                        <h2 class="recomend-mobile">#bestdeal</h2>
+                    </div>
+                    <h1 class="price-title-mobile">$19.99/mo</h1>
+                    <p class="description-mobile">perfect for growing teams and businesses</p>
+                    <ul class="price-list-mobile">
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> All in Free +</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Unlimited Guests</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Priority Support</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Smart Notifications</li>
+                    </ul>
+                    <button class="btn-default-mobile" onclick="moveButton()">
+                        <a href="">Go Unlimited</a>
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+                <div class="price-mobile">
+                    <h2 class="title-mobile">Enterprise</h2>
+                    <h1 class="price-title-mobile">Contact Us</h1>
+                    <p class="description-mobile">for large organizations with advanced needs</p>
+                    <ul class="price-list-mobile">
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> All in Unlimited +</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Bulk Export</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Advanced Analytics</li>
+                        <li class="price-item-mobile"><i class="fa-solid fa-check"></i> Advanced Security</li>
+                    </ul>
+                    <button class="btn-default-mobile" onclick="moveButton()">
+                        <a href="">Contact Sales</a>
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h1 class="title-comment">Why other choose us?</h1>
+            <div class="comments">
+                <div class="comment">
+                    <i class="fa-solid fa-quote-left" id="marks"></i>
+
+                    <h1 class="title">
+                        Incredible Solution!
+                    </h1>
+
+                    <p class="description">BusinessBoost Inc. has revolutionized our workflow. Their solutions are
+                        intuitive, incredibly effective, and easy to implement.</p>
+
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+
+                    <div class="user">
+                        <div class="banner">
+                            <img src="img/davi.png" alt="">
+                        </div>
+                        <div class="user-description">
+                            <h3 class="name">
+                                John Davis
+                            </h3>
+                            <p class="position">
+                                CEO at TechWave
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <i class="fa-solid fa-quote-left" id="marks"></i>
+
+                    <h1 class="title">
+                        A Game Changer!
+                    </h1>
+
+                    <p class="description">The tools provided by BusinessBoost Inc. have streamlined our processes and
+                        boosted our productivity significantly.</p>
+
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+
+                    <div class="user">
+                        <div class="banner">
+                            <img src="img/sarah.png" alt="">
+                        </div>
+                        <div class="user-description">
+                            <h3 class="name">
+                                Sarah Lee
+                            </h3>
+                            <p class="position">
+                                COO at InnovateX
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <i class="fa-solid fa-quote-left" id="marks"></i>
+
+                    <h1 class="title">
+                        Reliability!
+                    </h1>
+
+                    <p class="description">With BusinessBoost Inc., we have seen a marked improvement in efficiency and
+                        overall business performance</p>
+
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+
+                    <div class="user">
+                        <div class="banner">
+                            <img src="img/michael.png" alt="">
+                        </div>
+                        <div class="user-description">
+                            <h3 class="name">
+                                Michael Brown
+                            </h3>
+                            <p class="position">
+                                CFO at NextGen Solutions
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-mobile">
+            <h1 class="title-comment-mobile">Why others choose us?</h1>
+            <div class="comments-mobile sliding-comments-mobile">
+                <div class="comment-mobile">
+                    <i class="fa-solid fa-quote-left" id="marks-mobile"></i>
+        
+                    <h1 class="title-mobile">
+                        Incredible Solution!
+                    </h1>
+        
+                    <p class="description-mobile">BusinessBoost Inc. has revolutionized our workflow. Their solutions are
+                        intuitive, incredibly effective, and easy to implement.</p>
+        
+                    <span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+        
+                    <div class="user-mobile">
+                        <div class="banner-mobile">
+                            <img src="img/davi.png" alt="">
+                        </div>
+                        <div class="user-description-mobile">
+                            <h3 class="name-mobile">
+                                John Davis
+                            </h3>
+                            <p class="position-mobile">
+                                CEO at TechWave
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+    </main>   
+        
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#FFFFFF" fill-opacity="1"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+
+        <footer>
+            <div class="container">
+                <div class="newsletter">
+                    <div class="newsletter-logo">
+                        <i class="fa-solid fa-industry">
+                        </i>
+                        <h3 class="logo-title">BusinessBoost Inc.</h3>
+                    </div>
+                    <p class="logo-description">
+                        Stay in the loop and sign up for the Wardiere newsletter:
+                    </p>
+
+                    <button class="btn-default" onclick="moveButton()">
+                        <input type="email" name="" id="email" placeholder="Enter your email">
+                        <i class="fa-solid fa-arrow-right" id="arrow-btn"></i>
+                    </button>
+                </div>
+
+                <div class="lists">
+                    <ul class="newsletter-list">
+                        <h3 class="title">Company</h3>
+                        <li class="newsletter-item">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">About</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Solutions</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Pricing</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Team</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Career</a>
+                        </li>
+                    </ul>
+                    <ul class="newsletter-list">
+                        <h3 class="title">Documentation</h3>
+                        <li class="newsletter-item">
+                            <a href="">Help Centre</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Contact</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">FAQ</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <ul class="newsletter-list">
+                        <h3 class="title">Social</h3>
+                        <li class="newsletter-item">
+                            <a href="">Instagram</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Tik Tok</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Twitter</a>
+                        </li>
+                        <li class="newsletter-item">
+                            <a href="">Whatsapp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="term">
+                <p>© Business Bost Inc. All Rights Reserved 2023</p>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+
+
+</body>

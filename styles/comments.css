@@ -1,0 +1,113 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.title-comment {
+    color: var(--color-primary-3);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.comments {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+.comment {
+    font-size: 1.3em;
+    width: 90%;
+    background: linear-gradient(150deg, #13072E, #3F2182);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    transition: transform 0.5s ease; 
+}
+
+.comment:hover {
+    transform: translateY(-5px);
+}
+
+#marks{
+    font-size: 4rem;
+    color: var(--color-primary-5);
+}
+
+.title {
+    color: var(--color-primary-3);
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.comment .banner {
+    width: 15%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.comment .banner img {
+    width: 100%;
+    border-radius: 50%;
+    
+}
+.comment span {
+    margin-bottom: 10%;
+}
+.comment span i {
+    color: var(--color-primary-6);
+ 
+}
+
+.user {
+    display: flex;
+    align-items: center; /* Adicionado para centralizar verticalmente */
+    gap: 10px; /* Adicionado para espaçamento entre banner e descrição */
+}
+
+.user-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1rem; /* Tamanho ajustado para destacar */
+    font-weight: 600;
+    color: var(--color-primary-3);
+}
+
+.position {
+    font-size: 1rem;
+    color: var(--color-primary-5);
+}
+
+.user-comment {
+    width: 60%;
+}
+
+
+.about-mobile {
+    display: none;
+}
+
+
+/**/
+
+
+

@@ -1,0 +1,110 @@
+footer {
+    background-color: var(--color-primary-3);
+    display: flex;
+    flex-direction: column;
+    padding: 28px 8%;
+ 
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.newsletter-logo  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.newsletter-logo i {
+    color: var(--color-primary-2);
+}
+
+.newsletter .logo-title {
+    color: var(--color-primary-1);
+}
+
+.newsletter .logo-description {
+    color: var(--color-primary-1);
+    width: 60%;
+}
+
+.newsletter .btn-default {
+    width: 50%;
+    border: 2px solid var(--color-primary-1);
+}
+
+.newsletter .btn-default #email {
+    text-align: center;
+    border: none;
+    color: var(--color-primary-7);
+}
+
+.newsletter .btn-default #arrow-btn {
+    background-color: var(--color-primary-1);
+    color: var(--color-primary-3);
+}
+
+
+.lists {
+    width: 50%;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.newsletter-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.newsletter-list .title {
+    font-size: 1rem;
+    color: var(--color-primary-1);
+}
+
+.newsletter-item a {
+    text-decoration: none;
+    color: var(--color-primary-1);
+}
+
+.newsletter-item a:hover {
+    text-decoration: underline;
+}
+
+.term {
+    padding:  28px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 1px solid var(--color-primary-7);
+}
+
+.term p {
+    margin: 0;
+}
+
+.term a {
+    color: var(--color-primary-1);
+    text-decoration: none;
+}
+
+.term a:hover {
+    text-decoration: underline;
+}

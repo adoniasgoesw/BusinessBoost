@@ -1,0 +1,47 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-primary-1);
+    z-index: 3;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .btn-default {
+    padding: 5px 3px 5px 20px;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navlogo i {
+    color: var(--color-primary-2);
+}
+
+.logo-title {
+    color: var(--color-primary-3);
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: var(--color-primary-3);
+    font-weight: 500;
+}
+
+

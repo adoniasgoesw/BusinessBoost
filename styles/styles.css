@@ -1,0 +1,74 @@
+@import url(header.css);
+@import url(solutions.css);
+@import url(pricing.css);
+@import url(comments.css);
+@import url(footer.css);
+@import url(resposive.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --color-primary-1: #13072E;
+    --color-primary-2: #EFA9FA;
+    --color-primary-3: #FFFFFF;
+    --color-primary-4: #3F2182;
+    --color-primary-5: #B3AAFF;
+    --color-primary-6: #F4C01E;
+    --color-primary-7: #ADACB8;
+}
+
+body {
+    background-color: var(--color-primary-1);
+}
+
+section {
+    padding: 28px 8%;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-default {
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 8px 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color-primary-3);
+    color: var(--color-primary-1);
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.btn-default a {
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+#arrow-btn {
+    background-color: var(--color-primary-3);
+    color: var(--color-primary-1);
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.btn-default:hover {
+    transform: translatex(10px);
+}
+
+svg {
+    position: relative;
+    top: 6px
+}
